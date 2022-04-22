@@ -1,1 +1,113 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+    padding: 100px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.container {
+    border-style: double;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: lightblue;
+}
+
+h1 {
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    text-decoration: solid;
+    color: white;
+    text-decoration-line: underline;
+}
+
+h1:hover {
+    color: black;
+}
+
+.header {
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+}
+
+.addBtn {
+    width: 25%;
+    padding: 10px;
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 0;
+    background: white;
+    color: blue;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.addBtn:hover {
+    background-color: blue;
+    color: white;
+}
+
+input {
+    border-style: groove;
+    border-color: black;
+    border-width: 50px;
+    width: 40%;
+    margin-right: 0;
+    padding: 10px;
+    border: none;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+ul {
+    margin: 0px;
+    padding: 50px;
+}
+
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 15px 20px;
+    list-style-type: square;
+    background: white;
+    color: blue;
+    font-size: 20px;
+    transition: 0.2s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-position: inside;
+}
+
+ul li:nth-child(odd) {
+    background: blanchedalmond;
+    color: blue;
+}
+
+ul li:hover {
+    background: blue;
+    color: white;
+}
+
+.Done {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+}
+
+.Done:hover {
+    background-color: blue;
+    color: black;
+} 
