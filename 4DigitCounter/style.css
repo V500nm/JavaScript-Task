@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.container {
+    padding-top: 50px;
+    background-color: #8416A0;
+    font-family: 'Iceland';
+    font-size: 90px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    width: 1440px;
+    height: 900px;
+    left: calc(50% - 1440px/2);
+    top: calc(50% - 1024px/2);
+    background: #8416A0;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.inputDiv {
+    display: flex;
+    font-family: 'Inter';
+    font-size: 200px;
+    color: #FFFFFF;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.values {
+    width: 185px;
+    height: 222px;
+    background: #8E44AD;
+    border: 1px solid #FFFFFF;
+    box-shadow: inset 0px 0px 39px 13px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    margin-top: -152px;
+}
+
+.button {
+    position: absolute;
+    font-family: 'Iceland';
+    font-style: normal;
+    font-size: 50px;
+    color: #FFFFFF;
+    width: 299px;
+    height: 89px;
+    left: calc(50% - 299px/2 - 220.5px);
+    top: calc(59% - 89px/2 + 271.5px);
+    background: #8E44AD;
+    border: 1px solid #8416A0;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 27px;
+}
+
+.reset {
+    background: #8E44AD;
+    padding: 10px 10px;
+    font-size: 20px;
+    margin-left: 9px;
+    margin-top: 92px;
+    font-weight: bolder;
+    border-radius: 5px solid white;
+    color: white;
+    height: 75px;
+    width: 75px;
+}
+
+.button1 {
+    position: absolute;
+    width: 215px;
+    height: 50px;
+    left: 50px;
+    top: 760px;
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 48px;
+    color: #FFFFFF;
+    position: absolute;
+    width: 299px;
+    height: 89px;
+    left: calc(50% - 299px/2 + 220.5px);
+    top: calc(59% - 89px/2 + 271.5px);
+    background: #8E44AD;
+    border: 1px solid #8416A0;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 27px;
+}
+
+.input-Cell {
+    align-items: center;
+    width: 300px;
+    height: 100px;
+}
